@@ -1,6 +1,12 @@
 // Declaring a variable
 
+var score
+
 var score;
+var player;
+var age;
+
+
 
 /* Further Adventures
  *
