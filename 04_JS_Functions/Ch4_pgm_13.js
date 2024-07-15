@@ -17,11 +17,19 @@ player2 = {
     health: 40
 };
 
+showPlayerLocation = function (player) {
+    console.log(player.name + " is in " + player.place);
+};
+
+showPlayerHealth = function (player) {
+    console.log(player.name + " has health " + player.health);
+};
+
 showPlayerInfo = function () {
     console.log(player.name);
     console.log("------------------------------");
-    console.log(player.name + " is in " + player.place);
-    console.log(player.name + " has health " + player.health);
+    showPlayerLocation(player);
+    showPlayerHealth(player);
     console.log("------------------------------");
     console.log("");
 };
