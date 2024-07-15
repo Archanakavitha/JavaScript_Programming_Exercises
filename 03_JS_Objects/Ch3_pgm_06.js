@@ -10,6 +10,12 @@ book = {
 };
 
 
+bookName = "Victory City";
+
+book = {
+    title : bookName
+};
+
 
 /* Further Adventures
  *
