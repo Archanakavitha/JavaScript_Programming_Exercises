@@ -22,7 +22,6 @@ totalCost = function (callOutCharge, costPerHour, numberOfHours) {
 };
 
 
-
 /* Further Adventures
  *
  * 1) Run the program.
