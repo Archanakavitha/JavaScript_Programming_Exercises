@@ -2,12 +2,14 @@
 
 var items = [ "The Pyramids", "The Grand Canyon", "Bondi Beach" ];
 
-console.log("Dream destinations:");
+var showItems = function () {
+    console.log("Dream destinations (" + items.length + " places to visit):");
+    items.forEach(function (item) {
+        console.log(" – " + item);
+    });
+};
 
-items.forEach(function (item) {
-	console.log(" – " + item);
-});
-
+showItems();
 
 
 /* Further Adventures
