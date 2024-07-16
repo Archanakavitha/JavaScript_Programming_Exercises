@@ -1,5 +1,35 @@
 // DOM: Mini Project
 
+function changeYearColor() {
+    const yearHeader = document.querySelector('h1');
+    setInterval(() => {
+      const randomColor = getRandomColor();
+      yearHeader.style.color = randomColor;
+    }, 1000);
+  }
+  
+  
+  function changeDateTimeBackground() {
+    const dateTimeSection = document.querySelector('.wrapper');
+    setInterval(() => {
+      const randomColor = getRandomColor();
+      dateTimeSection.style.backgroundColor = randomColor;
+    }, 1000);
+  }
+  
+ 
+  function getRandomColor() {
+    const letters = '0123456789ABCDEF';
+    let color = '#';
+    for (let i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+  }
+
+  changeYearColor();
+  changeDateTimeBackground();
+  
 // Develop the following application, use the following HTML elements to get started with. You will get the same code on starter folder. Apply all the styles and functionality using JavaScript only.
 
 // 1. The year color is changing every 1 second
