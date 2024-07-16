@@ -47,7 +47,7 @@ const fetchData = async () => {
       const countries = await response.json()
       console.log(countries)
     } catch (err) {
-      console.error(err)
+      console.error(error)
     }
   }
   console.log('===== async and await')
