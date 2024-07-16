@@ -5,18 +5,17 @@ var CalendarEvent = function (title, startDate, startTime, endTime) {
     this.startDate = startDate;
     this.startTime = startTime;
     this.endTime = endTime;
-  
+
     this.showEvent = function () {
         var dateString = [
             this.startDate,
-            ", from ",
+            " - (",
             this.startTime,
-            " to ",
-            this.endTime
+            " - ",
+            this.endTime, ")"
         ].join("");
-      
-        console.log(this.title);
-        console.log(dateString);
+
+        console.log(this.title + ": " + dateString);
     };
 };
 
@@ -27,8 +26,17 @@ var calEvent = new CalendarEvent(
     "5.00pm"
 );
 
-calEvent.showEvent();
+var calEvent2 = new CalendarEvent(
+    "Conference",
+    "3/9/23",
+    "2.00pm",
+    "5.00pm"
+);
 
+
+
+calEvent.showEvent();
+calEvent2.showEvent();
 
 
 /* Further Adventures
