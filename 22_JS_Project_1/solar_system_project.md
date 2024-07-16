@@ -9,6 +9,6 @@ To download images, click the below link:
 
 https://github.com/Asabeneh/30-Days-Of-JavaScript/tree/master/24_Day_Project_solar_system/24_day_starter/images
 
-To download background video, click the below link:
+To download background vdeo, click the below link:
 
 https://github.com/Asabeneh/30-Days-Of-JavaScript/tree/master/24_Day_Project_solar_system/24_day_starter/design

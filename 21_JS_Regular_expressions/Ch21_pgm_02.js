@@ -15,7 +15,7 @@ function tenMostFrequentWords(paragraph, numWords = 10) {
         }
     });
 
-    // Step 3: Convert to array and sort by count in descending order
+    // Step 3: Convert to array and sorts by count in descending order
     const sortedWords = Object.keys(wordCount)
         .map(word => ({ word: word, count: wordCount[word] }))
         .sort((a, b) => b.count - a.count);
