@@ -5,3 +5,7 @@ const countries = ['Finland', 'Sweden', 'Norway']
 // Find a union b
 // Find a intersection b
 // Find a with b
+
+// Find a union b
+// Find a intersection b
+// Find a with b
